@@ -3,7 +3,7 @@
 var should = require('should');
 var sinon = require('sinon');
 var BlockController = require('../lib/blocks');
-var bitcore = require('@monaco-ex/bitcore-lib');
+var bitcore = require('bitcore-lib');
 var _ = require('lodash');
 
 var blocks = require('./data/blocks.json');
@@ -64,7 +64,7 @@ describe('Blocks', function() {
       'chainwork': '0000000000000000000000000000000000000000000000054626b1839ade284a',
       'previousblockhash': '00000000000001a55f3214e9172eb34b20e0bc5bd6b8007f3f149fca2c8991a4',
       'nextblockhash': '000000000001e866a8057cde0c650796cb8a59e0e6038dc31c69d7ca6649627d',
-      'reward': 50.0,
+      'reward': 500.0,
       'isMainChain': true,
       'poolInfo': {}
     };

@@ -1,7 +1,7 @@
 {
-  "name": "insight-api-monacoin",
-  "description": "A Monacoin blockchain REST and web socket API service for Monacore Node.",
-  "version": "0.4.3-monacoex-10",
+  "name": "insight-api-dongri",
+  "description": "A Dongri blockchain REST and web socket API service for Monacore Node.",
+  "version": "0.4.3",
   "repository": "git://github.com/bitpay/insight-api.git",
   "contributors": [
     {
@@ -64,9 +64,9 @@
   "main": "lib",
   "bitcoreNode": "lib",
   "dependencies": {
-    "@monaco-ex/coininfo": "^2.2.0-monacoex-1",
-    "@monaco-ex/bitcore-lib": "^0.14.0-segwit-1",
-    "@monaco-ex/bitcore-message": "^1.0.3-segwit-1",
+    "coininfo": "git+https://github.com/junkwind/coininfo#master-dongri",
+    "bitcore-lib": "git+https://github.com/junkwind/bitcore-lib#master-dongri",
+    "bitcore-message": "git+https://github.com/junkwind/bitcore-message#master-dongri",
     "async": "*",
     "body-parser": "^1.13.3",
     "compression": "^1.6.1",
